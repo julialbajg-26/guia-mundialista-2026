@@ -7,24 +7,24 @@
 .hero{min-height:92vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:54px 18px;position:relative;overflow:hidden;color:var(--gold2);background:radial-gradient(circle at 20% 20%,rgba(212,175,55,.28),transparent 22%),radial-gradient(circle at 80% 18%,rgba(246,231,184,.12),transparent 24%),linear-gradient(135deg,#000,#151515 60%,#050505)}
 .hero:before{content:"🏆";position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);font-size:330px;opacity:.08}.hero:after{content:"⚽";position:absolute;left:50%;top:41%;transform:translate(-50%,-50%);font-size:145px;animation:ball 4s ease-in-out infinite;filter:drop-shadow(0 16px 22px rgba(212,175,55,.45))}
 @keyframes ball{0%,100%{transform:translate(-50%,-50%) rotate(0deg)}50%{transform:translate(-50%,-61%) rotate(14deg)}}.confetti{position:absolute;width:8px;height:14px;top:-20px;animation:fall linear forwards;z-index:1}@keyframes fall{to{transform:translateY(110vh) rotate(720deg)}}
-.hero-card{max-width:980px;position:relative;z-index:3;padding:42px 34px;border-radius:34px;background:rgba(12,12,12,.72);border:1px solid rgba(212,175,55,.42);box-shadow:0 25px 75px rgba(0,0,0,.62)}.kicker{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111;padding:8px 16px;border-radius:999px;font-weight:900;letter-spacing:.05em;margin-bottom:14px}
+.hero-card{max-width:980px;position:relative;z-index:3;padding:42px 34px;border-radius:34px;background:rgba(12,12,12,.72);border:1px solid rgba(212,175,55,.42);box-shadow:0 25px 75px rgba(0,0,0,.62)}.version-badge{display:inline-block;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#111;padding:8px 16px;border-radius:999px;font-weight:900;letter-spacing:.05em;margin-top:16px}
 .hero h1{font-size:56px;margin:12px 0 4px;text-shadow:0 0 24px rgba(212,175,55,.35)}.hero h2{margin:0 0 16px;color:white;font-size:29px;letter-spacing:.08em}
 .searchbox{margin:24px auto 0;max-width:780px}.searchbox input{width:100%;padding:15px 18px;border-radius:999px;border:1px solid rgba(212,175,55,.48);background:rgba(255,255,255,.08);color:white;font-size:16px;outline:none}.searchbox input::placeholder{color:rgba(255,248,239,.68)}
 .search-results{display:none;margin:12px auto 0;max-width:780px;text-align:left;background:rgba(0,0,0,.34);border:1px solid rgba(212,175,55,.25);border-radius:18px;padding:12px;max-height:250px;overflow:auto}.search-results a{display:block;color:var(--cream);text-decoration:none;padding:8px 4px;border-bottom:1px solid rgba(212,175,55,.16)}.search-results a:last-child{border-bottom:0}
 .phase-page{max-width:1240px;margin:34px auto;padding:0 16px}.phase-header{background:linear-gradient(90deg,var(--blue),var(--blue2));color:white;border-radius:24px 24px 0 0;padding:24px;display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.phase-header h2{margin:0 0 8px;font-size:30px}.phase-header p{margin:0;line-height:1.45;color:#dbe7ff}.phase-header span{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.30);border-radius:999px;padding:8px 12px;font-weight:bold;white-space:nowrap}
 .archive-box{background:#f5efe1;border-left:1px solid #d6c49a;border-right:1px solid #d6c49a;padding:18px 24px;line-height:1.45}.archive-box h3{margin:0 0 10px;color:#5a4214}.archive-box ul{margin:8px 0;padding-left:22px}.archive-table{width:100%;border-collapse:collapse;background:white;border-radius:14px;overflow:hidden}.archive-table th,.archive-table td{padding:8px 10px;border:1px solid #decfa7;text-align:left}.archive-table th{background:#fff8dd;color:#5a4214}
-.scroll-note{background:#fff8dd;border-left:1px solid #e8d99b;border-right:1px solid #e8d99b;padding:10px 24px;font-size:14px;color:#5a4214}
+.scroll-note{background:#fff8dd;border:1px solid #e8d99b;border-radius:24px 24px 0 0;padding:10px 24px;font-size:14px;color:#5a4214}
 .match-list{background:white;border:1px solid #dfe7f3;border-top:0;border-radius:0 0 24px 24px;max-height:68vh;overflow:auto;box-shadow:0 12px 28px rgba(11,31,77,.12)}.match-head{position:sticky;top:0;z-index:5;display:grid;grid-template-columns:145px 1fr 185px 95px 125px;gap:12px;background:#0b1f4d;color:white;font-weight:bold;font-size:12px;letter-spacing:.05em;padding:11px 18px}
 .match-row{display:grid;grid-template-columns:145px 1fr 185px 95px 125px;gap:12px;align-items:center;padding:12px 18px;border-bottom:1px solid #e7ecf5;position:relative}.match-row:hover{background:#f6f9ff}.colombia-match{border-left:6px solid var(--gold);background:#fffdf3}.when strong{display:block;color:var(--blue)}.when small{display:block;color:#607087;margin-top:3px}.teams{font-weight:bold}.teams span{color:#607087;font-weight:normal;margin:0 6px}.city{color:#243b53}.score{text-align:center;font-weight:bold;background:#f1f4f9;border-radius:999px;padding:8px 10px;color:#5d6d7e}.curiosity-btn{border:1px solid #d4af37;background:#fff8dd;color:#5a4214;border-radius:999px;padding:8px 10px;font-weight:bold;cursor:pointer}.curiosity-panel{display:none;grid-column:1/-1;background:#fff8dd;border:1px solid #e0c66b;border-radius:14px;padding:12px 14px;color:#5a4214;margin-top:2px}.curiosity-panel.open{display:block}
 .positions-grid{background:white;border:1px solid #dfe7f3;border-radius:0 0 24px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;padding:18px;box-shadow:0 12px 28px rgba(11,31,77,.12)}.position-card{border:1px solid #dfe7f3;border-radius:18px;overflow:hidden;background:#fbfcff}.position-card h3{margin:0;background:#0b1f4d;color:white;padding:12px 14px}.position-card table{width:100%;border-collapse:collapse;font-size:13px}.position-card th,.position-card td{border-bottom:1px solid #e7ecf5;padding:8px;text-align:center}.position-card td:first-child,.position-card th:first-child{text-align:left}.position-card th{background:#f1f4f9;color:#243b53}
 .footer{text-align:center;padding:35px;color:#607087}
 @media(max-width:850px){.hero h1{font-size:36px}.hero h2{font-size:21px}.hero:after{font-size:92px;top:35%}.hero:before{font-size:210px}.phase-header{flex-direction:column}.match-head{grid-template-columns:1fr;gap:4px}.match-head div:nth-child(2),.match-head div:nth-child(3),.match-head div:nth-child(4),.match-head div:nth-child(5){display:none}.match-row{grid-template-columns:1fr;gap:5px;padding:14px 16px}.score{text-align:left;width:max-content}.curiosity-btn{width:max-content}}
 </style></head><body><nav class="topnav"><a href="#inicio">Inicio</a><a href="#fase-de-grupos">Fase de Grupos</a><a href="#dieciseisavos">Dieciseisavos</a><a href="#octavos-de-final">Octavos de Final</a><a href="#cuartos-de-final">Cuartos de Final</a><a href="#semifinales">Semifinales</a><a href="#tercer-y-cuarto-lugar">Tercer y cuarto lugar</a><a href="#gran-final">Gran Final</a><a href="#tabla-posiciones">Tabla de posiciones</a></nav>
-<section id="inicio" class="hero"><div class="hero-card"><div style="font-size:42px;letter-spacing:8px">🎉 ⚽ 🌎 🏆 🎉</div><div class="kicker">VERSIÓN 1.0 • CANDIDATA A LANZAMIENTO</div><h1>GUÍA MUNDIALISTA 2026</h1><h2>EDICIÓN JULIALBA</h2><p>Calendario completo por fases, con horarios en Colombia.</p><p>Busca una selección, ciudad, grupo o fase.</p><div class="searchbox"><input id="searchInput" type="text" placeholder="🔍 Buscar: Colombia, Brasil, Grupo K, Miami, Final..."></div><div id="searchResults" class="search-results"></div></div></section>
+<section id="inicio" class="hero"><div class="hero-card"><div style="font-size:42px;letter-spacing:8px">🎉 ⚽ 🌎 🏆 🎉</div><h1>GUÍA MUNDIALISTA 2026</h1><h2>EDICIÓN JULIALBA</h2><p>Calendario completo por fases, con horarios en Colombia.</p><p>Busca una selección, ciudad, grupo o fase.</p><div class="searchbox"><input id="searchInput" type="text" placeholder="🔍 Buscar: Colombia, Brasil, Grupo K, Miami, Final..."></div><div id="searchResults" class="search-results"></div><div class="version-badge">VERSIÓN 2.0</div></div></section>
 <section id="fase-de-grupos" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Fase de Grupos</h2><p>48 selecciones divididas en 12 grupos de 4 equipos cada uno. Juegan todos contra todos y avanzan a la siguiente etapa los dos primeros de cada grupo y los 8 mejores terceros.</p></div><span>72 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Los Reyes del Mundo</h3><p>Hasta Catar 2022 se han disputado 22 Copas del Mundo.</p><table class="archive-table"><tr><th>Selección</th><th>Títulos</th><th>Años</th></tr><tr><td>🇧🇷 Brasil</td><td>5</td><td>1958, 1962, 1970, 1994, 2002</td></tr><tr><td>🇩🇪 Alemania</td><td>4</td><td>1954, 1974, 1990, 2014</td></tr><tr><td>🇮🇹 Italia</td><td>4</td><td>1934, 1938, 1982, 2006</td></tr><tr><td>🇦🇷 Argentina</td><td>3</td><td>1978, 1986, 2022</td></tr><tr><td>🇫🇷 Francia</td><td>2</td><td>1998, 2018</td></tr><tr><td>🇺🇾 Uruguay</td><td>2</td><td>1930, 1950</td></tr><tr><td>🏴 Inglaterra</td><td>1</td><td>1966</td></tr><tr><td>🇪🇸 España</td><td>1</td><td>2010</td></tr></table></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Jueves 11/06</strong><small>2:00 p. m. COL</small></div>
@@ -32,510 +32,510 @@
       <div class="city">Ciudad de México</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Ciudad de México será una sede histórica: recibirá partidos mundialistas por tercera vez tras 1970 y 1986.</div>
+      <div class="curiosity-panel">México y Sudáfrica inauguraron el Mundial 2010 en Johannesburgo; aquel partido terminó 1-1 y fue el primero disputado en suelo africano.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 11/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Corea del Sur <span>vs</span> República Checa · Grupo A</div>
       <div class="city">Guadalajara</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Corea del Sur fue semifinalista en 2002, mientras que Checoslovaquia, antecedente histórico de la República Checa, jugó las finales de 1934 y 1962.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 12/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Canadá <span>vs</span> Bosnia y Herzegovina · Grupo B</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Canadá regresó a un Mundial en 2022 tras 36 años de ausencia; Bosnia y Herzegovina debutó como selección independiente en Brasil 2014.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 12/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Estados Unidos <span>vs</span> Paraguay · Grupo D</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Estados Unidos fue anfitrión del Mundial 1994 y Paraguay alcanzó en Sudáfrica 2010 sus primeros cuartos de final.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 13/06</strong><small>11:00 p. m. COL</small></div>
       <div class="teams">Australia <span>vs</span> Turquía · Grupo D</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Turquía fue tercera en Corea-Japón 2002 y Australia alcanzó los octavos de final en 2006 y 2022.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 13/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Catar <span>vs</span> Suiza · Grupo B</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Catar fue anfitrión en 2022 y Suiza fue eliminada en 2006 sin recibir goles en tiempo reglamentario ni prórroga.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 13/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Brasil <span>vs</span> Marruecos · Grupo C</div>
       <div class="city">Nueva York-Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Brasil es la única selección que ha participado en todos los Mundiales disputados desde 1930.</div>
+      <div class="curiosity-panel">Brasil es la única selección presente en todos los Mundiales; Marruecos hizo historia en 2022 al ser el primer semifinalista africano.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 13/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Haití <span>vs</span> Escocia · Grupo C</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Haití debutó en Alemania 1974 y Escocia, pese a sus varias participaciones mundialistas, nunca ha superado la fase de grupos.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 14/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">Alemania <span>vs</span> Curazao · Grupo E</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Alemania suma cuatro títulos mundiales y es una de las selecciones más constantes de la historia.</div>
+      <div class="curiosity-panel">Alemania suma cuatro títulos mundiales y Curazao representa una de las historias caribeñas más llamativas del torneo.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 14/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Países Bajos <span>vs</span> Japón · Grupo F</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Países Bajos ha jugado tres finales mundialistas sin ganar el título; Japón fue coanfitrión del primer Mundial disputado en Asia en 2002.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 14/06</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">Costa de Marfil <span>vs</span> Ecuador · Grupo E</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Costa de Marfil debutó en Mundiales en 2006 con Didier Drogba como figura, mientras Ecuador alcanzó los octavos de final ese mismo año.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 14/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Suecia <span>vs</span> Túnez · Grupo F</div>
       <div class="city">Monterrey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Túnez logró en 1978 la primera victoria africana en una Copa del Mundo; Suecia fue finalista como anfitriona en 1958.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 15/06</strong><small>11:00 a. m. COL</small></div>
       <div class="teams">España <span>vs</span> Cabo Verde · Grupo H</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">España ganó su primer Mundial en 2010, con una generación recordada por su estilo de posesión.</div>
+      <div class="curiosity-panel">España conquistó su único Mundial en 2010; Cabo Verde llega como una de las selecciones africanas más novedosas del torneo.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 15/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Bélgica <span>vs</span> Egipto · Grupo G</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Egipto fue el primer país africano en disputar un Mundial, en 1934; Bélgica logró su mejor actuación al ser tercera en 2018.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 15/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Arabia Saudí <span>vs</span> Uruguay · Grupo H</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Uruguay ganó el primer Mundial de la historia en 1930 y también protagonizó el Maracanazo de 1950.</div>
+      <div class="curiosity-panel">Arabia Saudí sorprendió al mundo al vencer a Argentina en 2022; Uruguay fue el primer campeón mundial en 1930.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 15/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Irán <span>vs</span> Nueva Zelanda · Grupo G</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Irán consiguió su primera victoria mundialista ante Estados Unidos en 1998; Nueva Zelanda terminó invicta el Mundial 2010 aunque quedó eliminada.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 16/06</strong><small>11:00 p. m. COL</small></div>
       <div class="teams">Austria <span>vs</span> Jordania · Grupo J</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Austria fue tercera en el Mundial de 1954; Jordania llega al torneo como una de las selecciones asiáticas con mayor ilusión de crecimiento.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 16/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Francia <span>vs</span> Senegal · Grupo I</div>
       <div class="city">Nueva York-Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Francia fue campeona en 1998 y 2018, y finalista en 2006 y 2022.</div>
+      <div class="curiosity-panel">Senegal protagonizó una de las grandes sorpresas mundialistas al derrotar 1-0 a Francia, campeona vigente, en el partido inaugural de 2002.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 16/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Irak <span>vs</span> Noruega · Grupo I</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Noruega venció a Brasil en Francia 1998; Irak disputó su único Mundial hasta ahora en México 1986.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 16/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Argentina <span>vs</span> Argelia · Grupo J</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Argentina llega al ciclo 2026 como campeona del mundo tras conquistar Catar 2022.</div>
+      <div class="curiosity-panel">Argentina ha ganado tres Mundiales: 1978, 1986 y 2022; Argelia dejó huella en 1982 al vencer a Alemania Federal.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 17/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">Portugal <span>vs</span> República Democrática del Congo · Grupo K</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Portugal ha tenido grandes figuras y generaciones brillantes, pero aún no ha ganado una Copa del Mundo.</div>
+      <div class="curiosity-panel">Portugal fue tercera en Inglaterra 1966 con Eusébio como goleador del torneo; la República Democrática del Congo jugó el Mundial 1974 como Zaire.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 17/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Inglaterra <span>vs</span> Croacia · Grupo L</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Inglaterra ganó su único Mundial en 1966, jugando como anfitriona.</div>
+      <div class="curiosity-panel">Croacia eliminó a Inglaterra en la semifinal de Rusia 2018 y luego disputó la primera final mundialista de su historia.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 17/06</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">Ghana <span>vs</span> Panamá · Grupo L</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Ghana estuvo a un penal de ser semifinalista en 2010; Panamá debutó en Mundiales en Rusia 2018.</div>
     </div><div class="match-row colombia-match">
       <div class="when"><strong>Miércoles 17/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Uzbekistán <span>vs</span> Colombia · Grupo K</div>
       <div class="city">Ciudad de México</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Ciudad de México será una sede histórica: recibirá partidos mundialistas por tercera vez tras 1970 y 1986.</div>
+      <div class="curiosity-panel">Colombia alcanzó sus primeros cuartos de final en Brasil 2014; Uzbekistán llega como una de las selecciones asiáticas debutantes del torneo.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 18/06</strong><small>11:00 a. m. COL</small></div>
       <div class="teams">República Checa <span>vs</span> Sudáfrica · Grupo A</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">Sudáfrica fue el primer anfitrión eliminado en fase de grupos en 2010; la tradición checa incluye dos finales jugadas como Checoslovaquia.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 18/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Suiza <span>vs</span> Bosnia y Herzegovina · Grupo B</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Suiza fue anfitriona del Mundial 1954 y Bosnia y Herzegovina marcó sus primeros goles mundialistas en Brasil 2014.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 18/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Canadá <span>vs</span> Catar · Grupo B</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Canadá organizó el Mundial Femenino 2015 y Catar fue sede del Mundial masculino 2022.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 18/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">México <span>vs</span> Corea del Sur · Grupo A</div>
       <div class="city">Guadalajara</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">México será el primer país en organizar tres Copas del Mundo: 1970, 1986 y 2026.</div>
+      <div class="curiosity-panel">Guadalajara fue sede en los Mundiales de 1970 y 1986, y vuelve a aparecer en el mapa mundialista en 2026.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 19/06</strong><small>11:00 p. m. COL</small></div>
       <div class="teams">Turquía <span>vs</span> Paraguay · Grupo D</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Paraguay llegó a cuartos de final en 2010 y Turquía fue tercera en 2002, dos de sus mejores recuerdos mundialistas.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 19/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Estados Unidos <span>vs</span> Australia · Grupo D</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Estados Unidos alcanzó las semifinales del primer Mundial en 1930; Australia volvió a octavos en Catar 2022.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 19/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Escocia <span>vs</span> Marruecos · Grupo C</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Marruecos fue la primera selección africana en ganar un grupo mundialista, en 1986; Escocia nunca ha superado la primera ronda.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 19/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Brasil <span>vs</span> Haití · Grupo C</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Brasil es la única selección que ha participado en todos los Mundiales disputados desde 1930.</div>
+      <div class="curiosity-panel">Haití marcó ante Italia en 1974 y cortó una larga racha sin recibir goles del arquero Dino Zoff.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 20/06</strong><small>11:00 p. m. COL</small></div>
       <div class="teams">Túnez <span>vs</span> Japón · Grupo F</div>
       <div class="city">Monterrey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Japón ha alcanzado varias veces los octavos de final, mientras Túnez logró la primera victoria africana en la historia mundialista.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 20/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">Países Bajos <span>vs</span> Suecia · Grupo F</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Suecia fue subcampeona en 1958 y Países Bajos finalista en 1974, 1978 y 2010.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 20/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Alemania <span>vs</span> Costa de Marfil · Grupo E</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Alemania suma cuatro títulos mundiales y es una de las selecciones más constantes de la historia.</div>
+      <div class="curiosity-panel">Alemania fue la primera selección europea en ganar un Mundial disputado en América, al coronarse en Brasil 2014.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 20/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Ecuador <span>vs</span> Curazao · Grupo E</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Ecuador firmó su mejor Mundial en 2006 al alcanzar octavos; Curazao representa el crecimiento del fútbol caribeño.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 21/06</strong><small>11:00 a. m. COL</small></div>
       <div class="teams">España <span>vs</span> Arabia Saudí · Grupo H</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">España ganó su primer Mundial en 2010, con una generación recordada por su estilo de posesión.</div>
+      <div class="curiosity-panel">Arabia Saudí llegó a octavos en 1994 y España se coronó campeona en 2010 con una generación histórica.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 21/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Bélgica <span>vs</span> Irán · Grupo G</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Bélgica fue tercera en 2018; Irán celebró victorias mundialistas ante Estados Unidos en 1998 y Marruecos en 2018.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 21/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Uruguay <span>vs</span> Cabo Verde · Grupo H</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Uruguay ganó el primer Mundial de la historia en 1930 y también protagonizó el Maracanazo de 1950.</div>
+      <div class="curiosity-panel">Uruguay ganó los Mundiales de 1930 y 1950; Cabo Verde representa una de las nuevas historias africanas del torneo.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 21/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Nueva Zelanda <span>vs</span> Egipto · Grupo G</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Egipto abrió el camino africano en los Mundiales en 1934; Nueva Zelanda fue el único equipo invicto de Sudáfrica 2010.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 22/06</strong><small>10:00 p. m. COL</small></div>
       <div class="teams">Jordania <span>vs</span> Argelia · Grupo J</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Argelia alcanzó octavos en 2014 tras una gran fase de grupos; Jordania busca consolidar su aparición mundialista.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 22/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">Argentina <span>vs</span> Austria · Grupo J</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Argentina llega al ciclo 2026 como campeona del mundo tras conquistar Catar 2022.</div>
+      <div class="curiosity-panel">Argentina ha disputado seis finales mundialistas; Austria logró su mejor posición en 1954 al terminar tercera.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 22/06</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">Francia <span>vs</span> Irak · Grupo I</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Francia fue campeona en 1998 y 2018, y finalista en 2006 y 2022.</div>
+      <div class="curiosity-panel">Francia ganó sus dos títulos como anfitriona en 1998 y en Rusia 2018; Irak tiene como referencia mundialista México 1986.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 22/06</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">Noruega <span>vs</span> Senegal · Grupo I</div>
       <div class="city">Nueva York-Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Noruega y Senegal comparten recuerdos ante campeones: Noruega venció a Brasil en 1998 y Senegal sorprendió a Francia en 2002.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 23/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">Portugal <span>vs</span> Uzbekistán · Grupo K</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Portugal ha tenido grandes figuras y generaciones brillantes, pero aún no ha ganado una Copa del Mundo.</div>
+      <div class="curiosity-panel">Eusébio marcó 9 goles para Portugal en 1966; Uzbekistán llega como una de las novedades asiáticas de 2026.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 23/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Inglaterra <span>vs</span> Ghana · Grupo L</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Inglaterra ganó su único Mundial en 1966, jugando como anfitriona.</div>
+      <div class="curiosity-panel">Inglaterra ganó el Mundial de 1966 y Ghana rozó la semifinal en 2010, cuando cayó por penales ante Uruguay.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 23/06</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">Panamá <span>vs</span> Croacia · Grupo L</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Panamá anotó su primer gol mundialista precisamente ante Inglaterra en 2018; Croacia fue finalista ese mismo año.</div>
     </div><div class="match-row colombia-match">
       <div class="when"><strong>Martes 23/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Colombia <span>vs</span> República Democrática del Congo · Grupo K</div>
       <div class="city">Guadalajara</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Colombia logró su mejor actuación mundialista en Brasil 2014, cuando alcanzó los cuartos de final.</div>
+      <div class="curiosity-panel">James Rodríguez fue goleador del Mundial 2014 con Colombia; la República Democrática del Congo jugó en 1974 bajo el nombre de Zaire.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Suiza <span>vs</span> Canadá · Grupo B</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Canadá volvió a jugar un Mundial en 2022 y Suiza ha sido una de las selecciones europeas más frecuentes en fases finales recientes.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Bosnia y Herzegovina <span>vs</span> Catar · Grupo B</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Bosnia y Herzegovina debutó en 2014; Catar debutó como anfitrión del Mundial 2022.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Escocia <span>vs</span> Brasil · Grupo C</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Brasil es la única selección que ha participado en todos los Mundiales disputados desde 1930.</div>
+      <div class="curiosity-panel">Brasil y Escocia abrieron el Mundial de Francia 1998; Brasil ganó aquel partido 2-1.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">Marruecos <span>vs</span> Haití · Grupo C</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">Marruecos llegó a semifinales en 2022 y Haití es recordada por el gol de Emmanuel Sanon ante Italia en 1974.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">República Checa <span>vs</span> México · Grupo A</div>
       <div class="city">Ciudad de México</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Ciudad de México será una sede histórica: recibirá partidos mundialistas por tercera vez tras 1970 y 1986.</div>
+      <div class="curiosity-panel">Ciudad de México será la primera ciudad en albergar partidos de tres Copas del Mundo: 1970, 1986 y 2026.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 24/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Sudáfrica <span>vs</span> Corea del Sur · Grupo A</div>
       <div class="city">Monterrey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Corea del Sur fue cuarta en 2002; Sudáfrica hizo historia al organizar el primer Mundial africano en 2010.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Curazao <span>vs</span> Costa de Marfil · Grupo E</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Costa de Marfil participó en tres Mundiales consecutivos entre 2006 y 2014; Curazao simboliza una nueva presencia caribeña.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Ecuador <span>vs</span> Alemania · Grupo E</div>
       <div class="city">Nueva York-Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Alemania suma cuatro títulos mundiales y es una de las selecciones más constantes de la historia.</div>
+      <div class="curiosity-panel">Alemania y Ecuador compartieron grupo en 2006; Alemania ganó 3-0 y terminó tercera en aquel Mundial.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">Japón <span>vs</span> Suecia · Grupo F</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Suecia fue tercera en 1994 y Japón sigue buscando llegar por primera vez a cuartos de final.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">Túnez <span>vs</span> Países Bajos · Grupo F</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Países Bajos ha sido subcampeona tres veces; Túnez fue el primer equipo africano que ganó un partido mundialista.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Turquía <span>vs</span> Estados Unidos · Grupo D</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Turquía fue tercera en 2002 y Estados Unidos fue semifinalista en el Mundial inaugural de 1930.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 25/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Paraguay <span>vs</span> Australia · Grupo D</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Australia jugó su primer Mundial en 1974; Paraguay logró su mejor campaña al llegar a cuartos en 2010.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>10:00 p. m. COL</small></div>
       <div class="teams">Egipto <span>vs</span> Irán · Grupo G</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Egipto fue mundialista en 1934, 1990 y 2018; Irán ha construido una presencia cada vez más constante en torneos recientes.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>10:00 p. m. COL</small></div>
       <div class="teams">Nueva Zelanda <span>vs</span> Bélgica · Grupo G</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Nueva Zelanda no perdió ningún partido en 2010; Bélgica logró su mejor Mundial al ser tercera en Rusia 2018.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Noruega <span>vs</span> Francia · Grupo I</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Francia fue campeona en 1998 y 2018, y finalista en 2006 y 2022.</div>
+      <div class="curiosity-panel">Francia fue campeona en 1998 y 2018; Noruega conserva como hito su victoria sobre Brasil en 1998.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Senegal <span>vs</span> Irak · Grupo I</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Senegal alcanzó cuartos de final en 2002; Irak disputó su primera y única Copa del Mundo en 1986.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">Cabo Verde <span>vs</span> Arabia Saudí · Grupo H</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Arabia Saudí alcanzó octavos en 1994; Cabo Verde llega como una de las selecciones africanas emergentes.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 26/06</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">Uruguay <span>vs</span> España · Grupo H</div>
       <div class="city">Guadalajara</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Uruguay ganó el primer Mundial de la historia en 1930 y también protagonizó el Maracanazo de 1950.</div>
+      <div class="curiosity-panel">Uruguay y España han sido campeonas del mundo: Uruguay en 1930 y 1950, España en 2010.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 27/06</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">Panamá <span>vs</span> Inglaterra · Grupo L</div>
       <div class="city">Nueva York-Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Inglaterra ganó su único Mundial en 1966, jugando como anfitriona.</div>
+      <div class="curiosity-panel">Inglaterra venció 6-1 a Panamá en 2018, partido en el que Panamá celebró su primer gol mundialista.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 27/06</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">Croacia <span>vs</span> Ghana · Grupo L</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Croacia ha sido tercera en 1998 y 2022, y finalista en 2018; Ghana llegó a cuartos en 2010.</div>
     </div><div class="match-row colombia-match">
       <div class="when"><strong>Sábado 27/06</strong><small>6:30 p. m. COL</small></div>
       <div class="teams">Colombia <span>vs</span> Portugal · Grupo K</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Colombia logró su mejor actuación mundialista en Brasil 2014, cuando alcanzó los cuartos de final.</div>
+      <div class="curiosity-panel">Este duelo reúne selecciones asociadas a dos grandes goleadores mundialistas: James Rodríguez fue Bota de Oro en 2014 y Eusébio lo fue en 1966.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 27/06</strong><small>6:30 p. m. COL</small></div>
       <div class="teams">República Democrática del Congo <span>vs</span> Uzbekistán · Grupo K</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">La República Democrática del Congo jugó su primer Mundial como Zaire en 1974; Uzbekistán representa una nueva historia asiática.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 27/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Argelia <span>vs</span> Austria · Grupo J</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Argelia y Austria quedaron unidas a la historia del Mundial 1982 por el polémico cierre del grupo entre Austria y Alemania Federal que eliminó a Argelia.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 27/06</strong><small>9:00 p. m. COL</small></div>
       <div class="teams">Jordania <span>vs</span> Argentina · Grupo J</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Argentina llega al ciclo 2026 como campeona del mundo tras conquistar Catar 2022.</div>
+      <div class="curiosity-panel">Argentina suma tres títulos y seis finales mundialistas; Jordania vive una oportunidad histórica frente a una potencia del torneo.</div>
     </div>
     </div></section>
 <section id="dieciseisavos" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Dieciseisavos</h2><p>32 equipos clasificados de la etapa anterior. Primera fase de eliminación directa, el equipo que pierde un partido queda automáticamente fuera del mundial, se juegan dos tiempos extras de 15 minutos cada uno y si es necesario finalmente se define mediante tiros desde punto penal.</p></div><span>16 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Uruguay 1930</h3><ul><li>Participaron 13 selecciones.</li><li>Uruguay venció 4-2 a Argentina en la final.</li><li>Se jugó el primer tiempo con el balón argentino <strong>Tiento</strong> y el segundo con el uruguayo <strong>T-Model</strong>.</li><li>Argentina ganaba 2-1 al descanso, pero Uruguay remontó y fue el primer campeón.</li></ul></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Domingo 28/06</strong><small>2:00 p. m. COL</small></div>
@@ -543,118 +543,118 @@
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 29/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">1º Grupo C <span>vs</span> 2º Grupo F · Partido 76</div>
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 29/06</strong><small>3:30 p. m. COL</small></div>
       <div class="teams">1º Grupo E <span>vs</span> 3º Grupo A/B/C/D/F · Partido 74</div>
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 29/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">1º Grupo F <span>vs</span> 2º Grupo C · Partido 75</div>
       <div class="city">Monterrey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 30/06</strong><small>12:00 m. COL</small></div>
       <div class="teams">2º Grupo E <span>vs</span> 2º Grupo I · Partido 78</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 30/06</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">1º Grupo I <span>vs</span> 3º Grupo C/D/F/G/H · Partido 77</div>
       <div class="city">Nueva York / Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 30/06</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">1º Grupo A <span>vs</span> 3º Grupo C/E/F/H/I · Partido 79</div>
       <div class="city">Ciudad de México</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Ciudad de México será una sede histórica: recibirá partidos mundialistas por tercera vez tras 1970 y 1986.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 01/07</strong><small>11:00 a. m. COL</small></div>
       <div class="teams">1º Grupo L <span>vs</span> 3º Grupo E/H/I/J/K · Partido 80</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 01/07</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">1º Grupo G <span>vs</span> 3º Grupo A/E/H/I/J · Partido 82</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 01/07</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">1º Grupo D <span>vs</span> 3º Grupo B/E/F/I/J · Partido 81</div>
       <div class="city">Bahía de San Francisco</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 02/07</strong><small>10:00 p. m. COL</small></div>
       <div class="teams">1º Grupo B <span>vs</span> 3º Grupo E/F/G/I/J · Partido 85</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 02/07</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">1º Grupo H <span>vs</span> 2º Grupo J · Partido 84</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Jueves 02/07</strong><small>6:00 p. m. COL</small></div>
       <div class="teams">2º Grupo K <span>vs</span> 2º Grupo L · Partido 83</div>
       <div class="city">Toronto</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 03/07</strong><small>1:00 p. m. COL</small></div>
       <div class="teams">2º Grupo D <span>vs</span> 2º Grupo G · Partido 88</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 03/07</strong><small>5:00 p. m. COL</small></div>
       <div class="teams">1º Grupo J <span>vs</span> 2º Grupo H · Partido 86</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Miami será una de las sedes con mayor ambiente latino del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 03/07</strong><small>8:30 p. m. COL</small></div>
       <div class="teams">1º Grupo K <span>vs</span> 3º Grupo D/E/I/J/L · Partido 87</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
     </div></section>
 <section id="octavos-de-final" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Octavos de Final</h2><p>16 ganadores se enfrentan en partidos mediante eliminación directa para el pase a cuartos de final</p></div><span>8 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Máximos goleadores históricos</h3><table class="archive-table"><tr><th>Jugador</th><th>Mundiales</th><th>Goles</th></tr><tr><td>🇩🇪 Miroslav Klose</td><td>2002, 2006, 2010, 2014</td><td>16</td></tr><tr><td>🇧🇷 Ronaldo Nazário</td><td>1998, 2002, 2006</td><td>15</td></tr><tr><td>🇩🇪 Gerd Müller</td><td>1970, 1974</td><td>14</td></tr><tr><td>🇫🇷 Just Fontaine</td><td>1958</td><td>13</td></tr><tr><td>🇧🇷 Pelé</td><td>1958, 1962, 1966, 1970</td><td>12</td></tr></table><p><em>Just Fontaine anotó sus 13 goles en un solo Mundial: Suecia 1958.</em></p></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Sábado 04/07</strong><small>12:00 m. COL</small></div>
@@ -662,62 +662,62 @@
       <div class="city">Houston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 04/07</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 74 <span>vs</span> Ganador Partido 77 · Partido 89</div>
       <div class="city">Filadelfia</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 05/07</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 76 <span>vs</span> Ganador Partido 78 · Partido 91</div>
       <div class="city">Nueva York / Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Domingo 05/07</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 79 <span>vs</span> Ganador Partido 80 · Partido 92</div>
       <div class="city">Ciudad de México</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Ciudad de México será una sede histórica: recibirá partidos mundialistas por tercera vez tras 1970 y 1986.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 06/07</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 83 <span>vs</span> Ganador Partido 84 · Partido 93</div>
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Lunes 06/07</strong><small>7:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 81 <span>vs</span> Ganador Partido 82 · Partido 94</div>
       <div class="city">Seattle</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 07/07</strong><small>11:00 a. m. COL</small></div>
       <div class="teams">Ganador Partido 86 <span>vs</span> Ganador Partido 88 · Partido 95</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Martes 07/07</strong><small>3:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 85 <span>vs</span> Ganador Partido 87 · Partido 96</div>
       <div class="city">Vancouver</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Canadá será anfitrión mundialista por primera vez en categoría masculina en 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
     </div></section>
 <section id="cuartos-de-final" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Cuartos de Final</h2><p>8 ganadores se enfrentan en partidos mediante eliminación directa para el pase a la semifinal.</p></div><span>4 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Grandes batacazos</h3><ul><li><strong>1950 – Maracanazo:</strong> Uruguay derrotó a Brasil en el Maracaná cuando el anfitrión esperaba celebrar.</li><li><strong>1990 – Camerún 1-0 Argentina:</strong> el campeón vigente cayó en el partido inaugural.</li><li><strong>2002 – Senegal 1-0 Francia:</strong> el debutante sorprendió al campeón mundial.</li><li><strong>2022 – Arabia Saudita 2-1 Argentina:</strong> una de las mayores sorpresas modernas; Argentina terminaría campeona.</li></ul></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Jueves 09/07</strong><small>3:00 p. m. COL</small></div>
@@ -725,34 +725,34 @@
       <div class="city">Boston</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Viernes 10/07</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 93 <span>vs</span> Ganador Partido 94 · Partido 98</div>
       <div class="city">Los Ángeles</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Los Ángeles será una de las sedes estadounidenses más visibles del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 11/07</strong><small>4:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 91 <span>vs</span> Ganador Partido 92 · Partido 99</div>
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Miami será una de las sedes con mayor ambiente latino del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Sábado 11/07</strong><small>8:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 95 <span>vs</span> Ganador Partido 96 · Partido 100</div>
       <div class="city">Kansas City</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
     </div></section>
 <section id="semifinales" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Semifinales</h2><p>4 ganadores se enfrentan para llegar a la gran final.</p></div><span>2 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Finales que se fueron al alargue</h3><ul><li><strong>1934:</strong> Italia venció 2-1 a Checoslovaquia.</li><li><strong>1966:</strong> Inglaterra ganó 4-2 a Alemania Federal.</li><li><strong>1978:</strong> Argentina venció 3-1 a Países Bajos.</li><li><strong>2014:</strong> Alemania derrotó 1-0 a Argentina.</li></ul></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Martes 14/07</strong><small>2:00 p. m. COL</small></div>
@@ -760,20 +760,20 @@
       <div class="city">Dallas</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Dallas será una de las sedes con mayor número de partidos en el Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div><div class="match-row ">
       <div class="when"><strong>Miércoles 15/07</strong><small>2:00 p. m. COL</small></div>
       <div class="teams">Ganador Partido 99 <span>vs</span> Ganador Partido 100 · Partido 102</div>
       <div class="city">Atlanta</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Atlanta será una de las sedes estadounidenses del torneo y recibirá partidos decisivos.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
     </div></section>
 <section id="tercer-y-cuarto-lugar" class="phase-page">
+    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="phase-header"><div><h2>Tercer y cuarto lugar</h2><p>Tercer y cuarto lugar que se disputan los dos equipos perdedores de las semifinales.</p></div><span>1 partidos</span></div>
     <div class="archive-box"><h3>🏆 Archivo Mundialista: Mascotas de los Mundiales</h3><ul><li><strong>World Cup Willie (1966 – Inglaterra):</strong> primera mascota oficial.</li><li><strong>Juanito (1970 – México):</strong> niño con sombrero mexicano.</li><li><strong>Naranjito (1982 – España):</strong> naranja futbolera muy recordada.</li><li><strong>Zakumi (2010 – Sudáfrica):</strong> leopardo del primer Mundial africano.</li><li><strong>La’eeb (2022 – Catar):</strong> figura inspirada en la imaginación árabe.</li></ul></div>
-    <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Sábado 18/07</strong><small>4:00 p. m. COL</small></div>
@@ -781,13 +781,13 @@
       <div class="city">Miami</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Miami será una de las sedes con mayor ambiente latino del Mundial 2026.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
     </div></section>
 <section id="gran-final" class="phase-page">
-    <div class="phase-header"><div><h2>Gran Final</h2><p>Gran Final que define Primer y Segundo lugar del Mundial de fútbol 2026.</p></div><span>1 partidos</span></div>
-    <div class="archive-box"><h3>🏆 Archivo Mundialista: Balones que hicieron historia</h3><ul><li><strong>Tiento / T-Model (1930):</strong> usados en la primera final.</li><li><strong>Telstar (1970):</strong> diseño blanco y negro para televisión.</li><li><strong>Azteca (1986):</strong> primer balón mundialista completamente sintético.</li><li><strong>Jabulani (2010):</strong> famoso por su trayectoria impredecible.</li><li><strong>Al Rihla (2022):</strong> su nombre significa “el viaje”.</li></ul><p><em>Luego podemos agregar galería con fotos usando imágenes con permiso de uso.</em></p></div>
     <div class="scroll-note">⬆️ Desliza hacia arriba para ver el calendario completo de esta fase. Todos los horarios corresponden a la hora de Colombia.</div>
+    <div class="phase-header"><div><h2>Gran Final</h2><p>Gran Final que define Primer y Segundo lugar del Mundial de fútbol 2026.</p></div><span>1 partidos</span></div>
+    <div class="archive-box"><h3>🏆 Archivo Mundialista: Balones que hicieron historia</h3><ul><li><strong>Tiento / T-Model (1930):</strong> usados en la primera final.</li><li><strong>Telstar (1970):</strong> diseño blanco y negro para televisión.</li><li><strong>Azteca (1986):</strong> primer balón mundialista completamente sintético.</li><li><strong>Jabulani (2010):</strong> famoso por su trayectoria impredecible.</li><li><strong>Al Rihla (2022):</strong> su nombre significa “el viaje”.</li></ul></div>
     <div class="match-list"><div class="match-head"><div>FECHA</div><div>PARTIDO</div><div>CIUDAD</div><div>MARCADOR</div><div>CURIOSIDAD</div></div>
     <div class="match-row ">
       <div class="when"><strong>Domingo 19/07</strong><small>2:00 p. m. COL</small></div>
@@ -795,9 +795,9 @@
       <div class="city">Nueva York / Nueva Jersey</div>
       <div class="score">Pendiente</div>
       <button class="curiosity-btn" onclick="toggleCuriosity(this)">🏆 Curiosidad</button>
-      <div class="curiosity-panel">Cada partido del Mundial suma una nueva página a la historia del fútbol.</div>
+      <div class="curiosity-panel">Dato histórico de esta fase en revisión para próxima actualización.</div>
     </div>
-    </div></section><section id="tabla-posiciones" class="phase-page"><div class="phase-header"><div><h2>Tabla de posiciones</h2><p>Se actualizará automáticamente a partir de los resultados que registres en el Excel. Antes del inicio todos los equipos aparecen sin partidos jugados.</p></div><span>12 grupos</span></div><div class="positions-grid"><div class="position-card"><h3>Grupo A</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Corea del Sur</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>México</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>República Checa</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Sudáfrica</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo B</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Bosnia y Herzegovina</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Canadá</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Catar</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Suiza</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo C</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Brasil</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Escocia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Haití</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Marruecos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo D</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Australia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Estados Unidos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Paraguay</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Turquía</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo E</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Alemania</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Costa de Marfil</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Curazao</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Ecuador</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo F</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Japón</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Países Bajos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Suecia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Túnez</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo G</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Bélgica</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Egipto</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Irán</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Nueva Zelanda</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo H</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Arabia Saudí</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cabo Verde</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>España</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Uruguay</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo I</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Irak</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Noruega</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Senegal</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo J</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Argelia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Argentina</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Austria</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Jordania</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo K</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Colombia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Portugal</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>República Democrática del Congo</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Uzbekistán</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo L</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Croacia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Ghana</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Inglaterra</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Panamá</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div></div></section><div class="footer">Guía Mundialista 2026 – Edición Julialba • Versión 1.0 candidata a lanzamiento</div>
+    </div></section><section id="tabla-posiciones" class="phase-page"><div class="phase-header"><div><h2>Tabla de posiciones</h2><p>Se actualizará automáticamente a partir de los resultados que registres en el Excel. Antes del inicio todos los equipos aparecen sin partidos jugados.</p></div><span>12 grupos</span></div><div class="positions-grid"><div class="position-card"><h3>Grupo A</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Corea del Sur</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>México</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>República Checa</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Sudáfrica</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo B</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Bosnia y Herzegovina</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Canadá</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Catar</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Suiza</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo C</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Brasil</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Escocia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Haití</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Marruecos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo D</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Australia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Estados Unidos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Paraguay</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Turquía</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo E</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Alemania</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Costa de Marfil</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Curazao</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Ecuador</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo F</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Japón</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Países Bajos</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Suecia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Túnez</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo G</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Bélgica</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Egipto</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Irán</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Nueva Zelanda</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo H</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Arabia Saudí</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cabo Verde</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>España</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Uruguay</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo I</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Francia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Irak</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Noruega</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Senegal</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo J</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Argelia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Argentina</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Austria</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Jordania</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo K</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Colombia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Portugal</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>República Democrática del Congo</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Uzbekistán</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div><div class="position-card"><h3>Grupo L</h3><table><tr><th>Equipo</th><th>PJ</th><th>PG</th><th>PE</th><th>PP</th><th>GF</th><th>GC</th><th>DG</th><th>PTS</th></tr><tr><td>Croacia</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Ghana</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Inglaterra</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Panamá</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table></div></div></section><div class="footer">Guía Mundialista 2026 – Edición Julialba • Versión 2.0</div>
 <script>
 for(let i=0;i<160;i++){const c=document.createElement('div');c.className='confetti';c.style.left=Math.random()*100+'vw';c.style.background=['#d4af37','#f6e7b8','#b8860b','#fff8ef'][Math.floor(Math.random()*4)];c.style.animationDuration=(3+Math.random()*5)+'s';c.style.animationDelay=(Math.random()*1.5)+'s';c.style.opacity=.35+Math.random()*.65;document.querySelector('.hero').appendChild(c);}
 const searchIndex=[{"fase": "Fase de Grupos", "texto": "Jueves 2026-06-11 · 2:00 p. m. COL · México vs Sudáfrica · Ciudad de México · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-11 2:00 p. m. méxico sudáfrica ciudad de méxico grupo a"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-11 · 9:00 p. m. COL · Corea del Sur vs República Checa · Guadalajara · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-11 9:00 p. m. corea del sur república checa guadalajara grupo a"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-12 · 2:00 p. m. COL · Canadá vs Bosnia y Herzegovina · Toronto · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-12 2:00 p. m. canadá bosnia y herzegovina toronto grupo b"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-12 · 8:00 p. m. COL · Estados Unidos vs Paraguay · Los Ángeles · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-12 8:00 p. m. estados unidos paraguay los ángeles grupo d"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-13 · 2:00 p. m. COL · Catar vs Suiza · Bahía de San Francisco · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-13 2:00 p. m. catar suiza bahía de san francisco grupo b"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-13 · 5:00 p. m. COL · Brasil vs Marruecos · Nueva York-Nueva Jersey · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-13 5:00 p. m. brasil marruecos nueva york-nueva jersey grupo c"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-13 · 8:00 p. m. COL · Haití vs Escocia · Boston · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-13 8:00 p. m. haití escocia boston grupo c"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-13 · 11:00 p. m. COL · Australia vs Turquía · Vancouver · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-13 11:00 p. m. australia turquía vancouver grupo d"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-14 · 12:00 m. COL · Alemania vs Curazao · Houston · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-14 12:00 m. alemania curazao houston grupo e"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-14 · 3:00 p. m. COL · Países Bajos vs Japón · Dallas · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-14 3:00 p. m. países bajos japón dallas grupo f"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-14 · 6:00 p. m. COL · Costa de Marfil vs Ecuador · Filadelfia · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-14 6:00 p. m. costa de marfil ecuador filadelfia grupo e"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-14 · 9:00 p. m. COL · Suecia vs Túnez · Monterrey · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-14 9:00 p. m. suecia túnez monterrey grupo f"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-15 · 11:00 a. m. COL · España vs Cabo Verde · Atlanta · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-15 11:00 a. m. españa cabo verde atlanta grupo h"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-15 · 2:00 p. m. COL · Bélgica vs Egipto · Seattle · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-15 2:00 p. m. bélgica egipto seattle grupo g"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-15 · 5:00 p. m. COL · Arabia Saudí vs Uruguay · Miami · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-15 5:00 p. m. arabia saudí uruguay miami grupo h"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-15 · 8:00 p. m. COL · Irán vs Nueva Zelanda · Los Ángeles · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-15 8:00 p. m. irán nueva zelanda los ángeles grupo g"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-16 · 2:00 p. m. COL · Francia vs Senegal · Nueva York-Nueva Jersey · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-16 2:00 p. m. francia senegal nueva york-nueva jersey grupo i"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-16 · 5:00 p. m. COL · Irak vs Noruega · Boston · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-16 5:00 p. m. irak noruega boston grupo i"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-16 · 8:00 p. m. COL · Argentina vs Argelia · Kansas City · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-16 8:00 p. m. argentina argelia kansas city grupo j"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-16 · 11:00 p. m. COL · Austria vs Jordania · Bahía de San Francisco · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-16 11:00 p. m. austria jordania bahía de san francisco grupo j"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-17 · 12:00 m. COL · Portugal vs República Democrática del Congo · Houston · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-17 12:00 m. portugal república democrática del congo houston grupo k"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-17 · 3:00 p. m. COL · Inglaterra vs Croacia · Dallas · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-17 3:00 p. m. inglaterra croacia dallas grupo l"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-17 · 6:00 p. m. COL · Ghana vs Panamá · Toronto · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-17 6:00 p. m. ghana panamá toronto grupo l"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-17 · 9:00 p. m. COL · Uzbekistán vs Colombia · Ciudad de México · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-17 9:00 p. m. uzbekistán colombia ciudad de méxico grupo k"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-18 · 11:00 a. m. COL · República Checa vs Sudáfrica · Atlanta · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-18 11:00 a. m. república checa sudáfrica atlanta grupo a"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-18 · 2:00 p. m. COL · Suiza vs Bosnia y Herzegovina · Los Ángeles · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-18 2:00 p. m. suiza bosnia y herzegovina los ángeles grupo b"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-18 · 5:00 p. m. COL · Canadá vs Catar · Vancouver · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-18 5:00 p. m. canadá catar vancouver grupo b"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-18 · 8:00 p. m. COL · México vs Corea del Sur · Guadalajara · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-18 8:00 p. m. méxico corea del sur guadalajara grupo a"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-19 · 2:00 p. m. COL · Estados Unidos vs Australia · Seattle · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-19 2:00 p. m. estados unidos australia seattle grupo d"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-19 · 5:00 p. m. COL · Escocia vs Marruecos · Boston · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-19 5:00 p. m. escocia marruecos boston grupo c"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-19 · 8:00 p. m. COL · Brasil vs Haití · Filadelfia · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-19 8:00 p. m. brasil haití filadelfia grupo c"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-19 · 11:00 p. m. COL · Turquía vs Paraguay · Bahía de San Francisco · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-19 11:00 p. m. turquía paraguay bahía de san francisco grupo d"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-20 · 12:00 m. COL · Países Bajos vs Suecia · Houston · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-20 12:00 m. países bajos suecia houston grupo f"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-20 · 3:00 p. m. COL · Alemania vs Costa de Marfil · Toronto · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-20 3:00 p. m. alemania costa de marfil toronto grupo e"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-20 · 9:00 p. m. COL · Ecuador vs Curazao · Kansas City · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-20 9:00 p. m. ecuador curazao kansas city grupo e"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-20 · 11:00 p. m. COL · Túnez vs Japón · Monterrey · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-20 11:00 p. m. túnez japón monterrey grupo f"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-21 · 11:00 a. m. COL · España vs Arabia Saudí · Atlanta · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-21 11:00 a. m. españa arabia saudí atlanta grupo h"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-21 · 2:00 p. m. COL · Bélgica vs Irán · Los Ángeles · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-21 2:00 p. m. bélgica irán los ángeles grupo g"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-21 · 5:00 p. m. COL · Uruguay vs Cabo Verde · Miami · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-21 5:00 p. m. uruguay cabo verde miami grupo h"}, {"fase": "Fase de Grupos", "texto": "Domingo 2026-06-21 · 8:00 p. m. COL · Nueva Zelanda vs Egipto · Vancouver · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos domingo 2026-06-21 8:00 p. m. nueva zelanda egipto vancouver grupo g"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-22 · 12:00 m. COL · Argentina vs Austria · Dallas · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-22 12:00 m. argentina austria dallas grupo j"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-22 · 4:00 p. m. COL · Francia vs Irak · Filadelfia · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-22 4:00 p. m. francia irak filadelfia grupo i"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-22 · 7:00 p. m. COL · Noruega vs Senegal · Nueva York-Nueva Jersey · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-22 7:00 p. m. noruega senegal nueva york-nueva jersey grupo i"}, {"fase": "Fase de Grupos", "texto": "Lunes 2026-06-22 · 10:00 p. m. COL · Jordania vs Argelia · Bahía de San Francisco · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos lunes 2026-06-22 10:00 p. m. jordania argelia bahía de san francisco grupo j"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-23 · 12:00 m. COL · Portugal vs Uzbekistán · Houston · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-23 12:00 m. portugal uzbekistán houston grupo k"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-23 · 3:00 p. m. COL · Inglaterra vs Ghana · Boston · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-23 3:00 p. m. inglaterra ghana boston grupo l"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-23 · 6:00 p. m. COL · Panamá vs Croacia · Toronto · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-23 6:00 p. m. panamá croacia toronto grupo l"}, {"fase": "Fase de Grupos", "texto": "Martes 2026-06-23 · 9:00 p. m. COL · Colombia vs República Democrática del Congo · Guadalajara · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos martes 2026-06-23 9:00 p. m. colombia república democrática del congo guadalajara grupo k"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 2:00 p. m. COL · Suiza vs Canadá · Vancouver · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 2:00 p. m. suiza canadá vancouver grupo b"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 2:00 p. m. COL · Bosnia y Herzegovina vs Catar · Seattle · Grupo B", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 2:00 p. m. bosnia y herzegovina catar seattle grupo b"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 5:00 p. m. COL · Escocia vs Brasil · Miami · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 5:00 p. m. escocia brasil miami grupo c"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 5:00 p. m. COL · Marruecos vs Haití · Atlanta · Grupo C", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 5:00 p. m. marruecos haití atlanta grupo c"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 8:00 p. m. COL · República Checa vs México · Ciudad de México · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 8:00 p. m. república checa méxico ciudad de méxico grupo a"}, {"fase": "Fase de Grupos", "texto": "Miércoles 2026-06-24 · 8:00 p. m. COL · Sudáfrica vs Corea del Sur · Monterrey · Grupo A", "target": "fase-de-grupos", "search": "fase de grupos miércoles 2026-06-24 8:00 p. m. sudáfrica corea del sur monterrey grupo a"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 3:00 p. m. COL · Curazao vs Costa de Marfil · Filadelfia · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 3:00 p. m. curazao costa de marfil filadelfia grupo e"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 3:00 p. m. COL · Ecuador vs Alemania · Nueva York-Nueva Jersey · Grupo E", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 3:00 p. m. ecuador alemania nueva york-nueva jersey grupo e"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 6:00 p. m. COL · Japón vs Suecia · Dallas · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 6:00 p. m. japón suecia dallas grupo f"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 6:00 p. m. COL · Túnez vs Países Bajos · Kansas City · Grupo F", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 6:00 p. m. túnez países bajos kansas city grupo f"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 9:00 p. m. COL · Turquía vs Estados Unidos · Los Ángeles · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 9:00 p. m. turquía estados unidos los ángeles grupo d"}, {"fase": "Fase de Grupos", "texto": "Jueves 2026-06-25 · 9:00 p. m. COL · Paraguay vs Australia · Bahía de San Francisco · Grupo D", "target": "fase-de-grupos", "search": "fase de grupos jueves 2026-06-25 9:00 p. m. paraguay australia bahía de san francisco grupo d"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 2:00 p. m. COL · Noruega vs Francia · Boston · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 2:00 p. m. noruega francia boston grupo i"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 2:00 p. m. COL · Senegal vs Irak · Toronto · Grupo I", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 2:00 p. m. senegal irak toronto grupo i"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 7:00 p. m. COL · Cabo Verde vs Arabia Saudí · Houston · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 7:00 p. m. cabo verde arabia saudí houston grupo h"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 7:00 p. m. COL · Uruguay vs España · Guadalajara · Grupo H", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 7:00 p. m. uruguay españa guadalajara grupo h"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 10:00 p. m. COL · Egipto vs Irán · Seattle · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 10:00 p. m. egipto irán seattle grupo g"}, {"fase": "Fase de Grupos", "texto": "Viernes 2026-06-26 · 10:00 p. m. COL · Nueva Zelanda vs Bélgica · Vancouver · Grupo G", "target": "fase-de-grupos", "search": "fase de grupos viernes 2026-06-26 10:00 p. m. nueva zelanda bélgica vancouver grupo g"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 4:00 p. m. COL · Panamá vs Inglaterra · Nueva York-Nueva Jersey · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 4:00 p. m. panamá inglaterra nueva york-nueva jersey grupo l"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 4:00 p. m. COL · Croacia vs Ghana · Filadelfia · Grupo L", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 4:00 p. m. croacia ghana filadelfia grupo l"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 6:30 p. m. COL · Colombia vs Portugal · Miami · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 6:30 p. m. colombia portugal miami grupo k"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 6:30 p. m. COL · República Democrática del Congo vs Uzbekistán · Atlanta · Grupo K", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 6:30 p. m. república democrática del congo uzbekistán atlanta grupo k"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 9:00 p. m. COL · Argelia vs Austria · Kansas City · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 9:00 p. m. argelia austria kansas city grupo j"}, {"fase": "Fase de Grupos", "texto": "Sábado 2026-06-27 · 9:00 p. m. COL · Jordania vs Argentina · Dallas · Grupo J", "target": "fase-de-grupos", "search": "fase de grupos sábado 2026-06-27 9:00 p. m. jordania argentina dallas grupo j"}, {"fase": "Dieciseisavos", "texto": "Domingo 2026-06-28 · 2:00 p. m. COL · 2º Grupo A vs 2º Grupo B · Los Ángeles · Partido 73", "target": "dieciseisavos", "search": "dieciseisavos domingo 2026-06-28 2:00 p. m. 2º grupo a 2º grupo b los ángeles partido 73"}, {"fase": "Dieciseisavos", "texto": "Lunes 2026-06-29 · 12:00 m. COL · 1º Grupo C vs 2º Grupo F · Houston · Partido 76", "target": "dieciseisavos", "search": "dieciseisavos lunes 2026-06-29 12:00 m. 1º grupo c 2º grupo f houston partido 76"}, {"fase": "Dieciseisavos", "texto": "Lunes 2026-06-29 · 3:30 p. m. COL · 1º Grupo E vs 3º Grupo A/B/C/D/F · Boston · Partido 74", "target": "dieciseisavos", "search": "dieciseisavos lunes 2026-06-29 3:30 p. m. 1º grupo e 3º grupo a/b/c/d/f boston partido 74"}, {"fase": "Dieciseisavos", "texto": "Lunes 2026-06-29 · 8:00 p. m. COL · 1º Grupo F vs 2º Grupo C · Monterrey · Partido 75", "target": "dieciseisavos", "search": "dieciseisavos lunes 2026-06-29 8:00 p. m. 1º grupo f 2º grupo c monterrey partido 75"}, {"fase": "Dieciseisavos", "texto": "Martes 2026-06-30 · 12:00 m. COL · 2º Grupo E vs 2º Grupo I · Dallas · Partido 78", "target": "dieciseisavos", "search": "dieciseisavos martes 2026-06-30 12:00 m. 2º grupo e 2º grupo i dallas partido 78"}, {"fase": "Dieciseisavos", "texto": "Martes 2026-06-30 · 4:00 p. m. COL · 1º Grupo I vs 3º Grupo C/D/F/G/H · Nueva York / Nueva Jersey · Partido 77", "target": "dieciseisavos", "search": "dieciseisavos martes 2026-06-30 4:00 p. m. 1º grupo i 3º grupo c/d/f/g/h nueva york / nueva jersey partido 77"}, {"fase": "Dieciseisavos", "texto": "Martes 2026-06-30 · 8:00 p. m. COL · 1º Grupo A vs 3º Grupo C/E/F/H/I · Ciudad de México · Partido 79", "target": "dieciseisavos", "search": "dieciseisavos martes 2026-06-30 8:00 p. m. 1º grupo a 3º grupo c/e/f/h/i ciudad de méxico partido 79"}, {"fase": "Dieciseisavos", "texto": "Miércoles 2026-07-01 · 11:00 a. m. COL · 1º Grupo L vs 3º Grupo E/H/I/J/K · Atlanta · Partido 80", "target": "dieciseisavos", "search": "dieciseisavos miércoles 2026-07-01 11:00 a. m. 1º grupo l 3º grupo e/h/i/j/k atlanta partido 80"}, {"fase": "Dieciseisavos", "texto": "Miércoles 2026-07-01 · 3:00 p. m. COL · 1º Grupo G vs 3º Grupo A/E/H/I/J · Seattle · Partido 82", "target": "dieciseisavos", "search": "dieciseisavos miércoles 2026-07-01 3:00 p. m. 1º grupo g 3º grupo a/e/h/i/j seattle partido 82"}, {"fase": "Dieciseisavos", "texto": "Miércoles 2026-07-01 · 7:00 p. m. COL · 1º Grupo D vs 3º Grupo B/E/F/I/J · Bahía de San Francisco · Partido 81", "target": "dieciseisavos", "search": "dieciseisavos miércoles 2026-07-01 7:00 p. m. 1º grupo d 3º grupo b/e/f/i/j bahía de san francisco partido 81"}, {"fase": "Dieciseisavos", "texto": "Jueves 2026-07-02 · 2:00 p. m. COL · 1º Grupo H vs 2º Grupo J · Los Ángeles · Partido 84", "target": "dieciseisavos", "search": "dieciseisavos jueves 2026-07-02 2:00 p. m. 1º grupo h 2º grupo j los ángeles partido 84"}, {"fase": "Dieciseisavos", "texto": "Jueves 2026-07-02 · 6:00 p. m. COL · 2º Grupo K vs 2º Grupo L · Toronto · Partido 83", "target": "dieciseisavos", "search": "dieciseisavos jueves 2026-07-02 6:00 p. m. 2º grupo k 2º grupo l toronto partido 83"}, {"fase": "Dieciseisavos", "texto": "Jueves 2026-07-02 · 10:00 p. m. COL · 1º Grupo B vs 3º Grupo E/F/G/I/J · Vancouver · Partido 85", "target": "dieciseisavos", "search": "dieciseisavos jueves 2026-07-02 10:00 p. m. 1º grupo b 3º grupo e/f/g/i/j vancouver partido 85"}, {"fase": "Dieciseisavos", "texto": "Viernes 2026-07-03 · 1:00 p. m. COL · 2º Grupo D vs 2º Grupo G · Dallas · Partido 88", "target": "dieciseisavos", "search": "dieciseisavos viernes 2026-07-03 1:00 p. m. 2º grupo d 2º grupo g dallas partido 88"}, {"fase": "Dieciseisavos", "texto": "Viernes 2026-07-03 · 5:00 p. m. COL · 1º Grupo J vs 2º Grupo H · Miami · Partido 86", "target": "dieciseisavos", "search": "dieciseisavos viernes 2026-07-03 5:00 p. m. 1º grupo j 2º grupo h miami partido 86"}, {"fase": "Dieciseisavos", "texto": "Viernes 2026-07-03 · 8:30 p. m. COL · 1º Grupo K vs 3º Grupo D/E/I/J/L · Kansas City · Partido 87", "target": "dieciseisavos", "search": "dieciseisavos viernes 2026-07-03 8:30 p. m. 1º grupo k 3º grupo d/e/i/j/l kansas city partido 87"}, {"fase": "Octavos de Final", "texto": "Sábado 2026-07-04 · 12:00 m. COL · Ganador Partido 73 vs Ganador Partido 75 · Houston · Partido 90", "target": "octavos-de-final", "search": "octavos de final sábado 2026-07-04 12:00 m. ganador partido 73 ganador partido 75 houston partido 90"}, {"fase": "Octavos de Final", "texto": "Sábado 2026-07-04 · 4:00 p. m. COL · Ganador Partido 74 vs Ganador Partido 77 · Filadelfia · Partido 89", "target": "octavos-de-final", "search": "octavos de final sábado 2026-07-04 4:00 p. m. ganador partido 74 ganador partido 77 filadelfia partido 89"}, {"fase": "Octavos de Final", "texto": "Domingo 2026-07-05 · 3:00 p. m. COL · Ganador Partido 76 vs Ganador Partido 78 · Nueva York / Nueva Jersey · Partido 91", "target": "octavos-de-final", "search": "octavos de final domingo 2026-07-05 3:00 p. m. ganador partido 76 ganador partido 78 nueva york / nueva jersey partido 91"}, {"fase": "Octavos de Final", "texto": "Domingo 2026-07-05 · 7:00 p. m. COL · Ganador Partido 79 vs Ganador Partido 80 · Ciudad de México · Partido 92", "target": "octavos-de-final", "search": "octavos de final domingo 2026-07-05 7:00 p. m. ganador partido 79 ganador partido 80 ciudad de méxico partido 92"}, {"fase": "Octavos de Final", "texto": "Lunes 2026-07-06 · 2:00 p. m. COL · Ganador Partido 83 vs Ganador Partido 84 · Dallas · Partido 93", "target": "octavos-de-final", "search": "octavos de final lunes 2026-07-06 2:00 p. m. ganador partido 83 ganador partido 84 dallas partido 93"}, {"fase": "Octavos de Final", "texto": "Lunes 2026-07-06 · 7:00 p. m. COL · Ganador Partido 81 vs Ganador Partido 82 · Seattle · Partido 94", "target": "octavos-de-final", "search": "octavos de final lunes 2026-07-06 7:00 p. m. ganador partido 81 ganador partido 82 seattle partido 94"}, {"fase": "Octavos de Final", "texto": "Martes 2026-07-07 · 11:00 a. m. COL · Ganador Partido 86 vs Ganador Partido 88 · Atlanta · Partido 95", "target": "octavos-de-final", "search": "octavos de final martes 2026-07-07 11:00 a. m. ganador partido 86 ganador partido 88 atlanta partido 95"}, {"fase": "Octavos de Final", "texto": "Martes 2026-07-07 · 3:00 p. m. COL · Ganador Partido 85 vs Ganador Partido 87 · Vancouver · Partido 96", "target": "octavos-de-final", "search": "octavos de final martes 2026-07-07 3:00 p. m. ganador partido 85 ganador partido 87 vancouver partido 96"}, {"fase": "Cuartos de Final", "texto": "Jueves 2026-07-09 · 3:00 p. m. COL · Ganador Partido 89 vs Ganador Partido 90 · Boston · Partido 97", "target": "cuartos-de-final", "search": "cuartos de final jueves 2026-07-09 3:00 p. m. ganador partido 89 ganador partido 90 boston partido 97"}, {"fase": "Cuartos de Final", "texto": "Viernes 2026-07-10 · 2:00 p. m. COL · Ganador Partido 93 vs Ganador Partido 94 · Los Ángeles · Partido 98", "target": "cuartos-de-final", "search": "cuartos de final viernes 2026-07-10 2:00 p. m. ganador partido 93 ganador partido 94 los ángeles partido 98"}, {"fase": "Cuartos de Final", "texto": "Sábado 2026-07-11 · 4:00 p. m. COL · Ganador Partido 91 vs Ganador Partido 92 · Miami · Partido 99", "target": "cuartos-de-final", "search": "cuartos de final sábado 2026-07-11 4:00 p. m. ganador partido 91 ganador partido 92 miami partido 99"}, {"fase": "Cuartos de Final", "texto": "Sábado 2026-07-11 · 8:00 p. m. COL · Ganador Partido 95 vs Ganador Partido 96 · Kansas City · Partido 100", "target": "cuartos-de-final", "search": "cuartos de final sábado 2026-07-11 8:00 p. m. ganador partido 95 ganador partido 96 kansas city partido 100"}, {"fase": "Semifinales", "texto": "Martes 2026-07-14 · 2:00 p. m. COL · Ganador Partido 97 vs Ganador Partido 98 · Dallas · Partido 101", "target": "semifinales", "search": "semifinales martes 2026-07-14 2:00 p. m. ganador partido 97 ganador partido 98 dallas partido 101"}, {"fase": "Semifinales", "texto": "Miércoles 2026-07-15 · 2:00 p. m. COL · Ganador Partido 99 vs Ganador Partido 100 · Atlanta · Partido 102", "target": "semifinales", "search": "semifinales miércoles 2026-07-15 2:00 p. m. ganador partido 99 ganador partido 100 atlanta partido 102"}, {"fase": "Tercer y cuarto lugar", "texto": "Sábado 2026-07-18 · 4:00 p. m. COL · Perdedor Partido 101 vs Perdedor Partido 102 · Miami · Partido 103", "target": "tercer-y-cuarto-lugar", "search": "tercer y cuarto lugar sábado 2026-07-18 4:00 p. m. perdedor partido 101 perdedor partido 102 miami partido 103"}, {"fase": "Gran Final", "texto": "Domingo 2026-07-19 · 2:00 p. m. COL · Ganador Partido 101 vs Ganador Partido 102 · Nueva York / Nueva Jersey · Partido 104", "target": "gran-final", "search": "gran final domingo 2026-07-19 2:00 p. m. ganador partido 101 ganador partido 102 nueva york / nueva jersey partido 104"}];const input=document.getElementById('searchInput');const box=document.getElementById('searchResults');input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();if(!q){box.style.display='none';box.innerHTML='';return}const hits=searchIndex.filter(x=>x.search.includes(q)).slice(0,40);box.style.display='block';box.innerHTML=hits.length?hits.map(x=>`<a href="#${x.target}">⚽ <strong>${x.fase}</strong> · ${x.texto}</a>`).join(''):`<a>No encontré resultados para "${input.value}".</a>`;});
